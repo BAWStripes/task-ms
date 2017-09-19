@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #030500;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #F8B408;
+}
+
+.cleaxfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+header>.navbar{
+  position: absolute;
+  top: 50px;
+  width: 94.8%;
+  left: 50%;
+  margin-left: -47.4%;
+  border-left: 1px solid #3f2a22;
+}
+
+header>.navbar>li{
+  width: 160px;
+  height: 70px;
+  border-right: 1px solid #3f2a22;
+  float: left;
+  background-color: #261712;
+  text-align: center;
+}
+
+header>.navbar>li>a{
+  line-height: 70px;
+  font-weight: bold;
+}
+
+header>.navbar>.logo{
+  width: 240px;
+}
+
+header>ul>li>a>img{
+  position: relative;
+  top: -40px;
+  width: 240px;
+}
+
+main{
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background-color: #120D0A;
+  border-top: 2px solid #030500;
+}
+
+main>.game{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main>.game>li{
+  background-color: #251812;
+  text-align: center;
+  transition: all .3s;
+}
+
+main>.game>li:hover{
+  transform: translateY(-30px);
+}
+
+footer{
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+footer>.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+footer>.container>.logos>.customer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer>.container>.logos>.partners{
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer>.container>.logos>.customer li{
+  margin-left: 20px;
+  color: #fff;
+}
+
+footer>.container>.logos>.customer i{
+  color: #F8B408;
+  margin-right: 10px;
+  font-size: 22px;
+  vertical-align: middle;
+}
+
+footer>.container>p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer>.container>p>img{
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer>.suggestion{
+  font-size: 12px;
+  margin:  0 auto;
+  width: 90%;
+  border-top: 1px solid #ccc;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: #ccc;
+  text-align: center;
+}
+
+footer>.suggestion >p{
+  margin: 0;
+  padding: 0;
+}
